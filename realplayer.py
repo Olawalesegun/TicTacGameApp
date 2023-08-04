@@ -1,7 +1,7 @@
 from player import Player
 
 
-class HumanPlayer(Player):
+class RealPlayer(Player):
     def __init__(self, pick):
         super().__init__(pick)
 
